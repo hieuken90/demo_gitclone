@@ -8,7 +8,7 @@
 
 (defn splash []
   {:status 200
-   :headers {"Content-Type" "application/json"}
+   :headers {"Content-Type" "text/plain"}
    :body "{"stringConvert":"https://www.baidu.com/"}"})
 
 (defroutes app
